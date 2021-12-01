@@ -1,0 +1,62 @@
+:root {
+    --color-primary: #9b59b6;
+    --color-secondary: #e74c3c;
+    --color-background-bright: #bdc3c7;
+}
+
+#app {
+    padding-left: 3%;
+}
+
+#title {
+    padding-top: 2%;
+    font-size: 50px;
+    padding-bottom: 2%;
+    font-family: 'Lobster', cursive;
+    background: -webkit-linear-gradient(var(--color-primary), var(--color-secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#recommender {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+    margin-bottom: 2%;
+}
+
+#songs {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    height: 500px;
+    width: 50%;
+    overflow: scroll;
+}
+
+#get-songs {
+    margin-left: 20%;
+    height: 40px;
+    width: 110px;
+    border: 0;
+    border-radius: 16px;
+    background-color: var(--color-secondary);
+    color: #ecf0f1;
+}
+#get-songs:active {
+    background-color: var(--color-primary);
+}
+
+#secret {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#secret-text {
+    /* background-color: var(--color-background-bright); */
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
